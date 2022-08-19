@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Guages</class>
+ <widget class="QMainWindow" name="Guages">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Guages</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(194, 194, 194);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QPushButton" name="Accept_Button">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>250</y>
+      <width>371</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>50</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 5px solid black; border-radius: 25px;
+background-color: white;</string>
+    </property>
+    <property name="text">
+     <string>Accept</string>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>70</y>
+      <width>886</width>
+      <height>95</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLineEdit" name="Data_Label">
+       <property name="font">
+        <font>
+         <pointsize>50</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 5px solid black; border-top-left-radius: 25px; border-bottom-left-radius: 25px; border-right: 1px solid black; background-color: white;</string>
+       </property>
+       <property name="text">
+        <string>Data</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="Data_Variable">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>50</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 5px solid black; border-top-right-radius: 10px; border-bottom-right-radius: 10px; background-color: white;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Select Variable</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>AFR</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MAP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Engine Coolant</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Throttle Position</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control Module Voltage</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fuel Level</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>MPG</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ambient Air Temp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Intake Air Temp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fuel Rail Pressure</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ignition Timing</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Oil Temp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Oil Pressure</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
