@@ -1,0 +1,17 @@
+Engine Coolant
+APS
+Manifold pressure
+control module voltage
+fuel tank level input
+evap system vapor pressure
+AFR
+ambient air temp
+intake air temp
+fuel rail pressure
+ignition timing
+engine codes
+MPG
+
+Maybe:
+oil temp
+oil pressure
