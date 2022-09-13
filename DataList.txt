@@ -15,3 +15,5 @@ MPG
 Maybe:
 oil temp
 oil pressure
+
+https://python-obd.readthedocs.io/en/latest/Command%20Tables/
